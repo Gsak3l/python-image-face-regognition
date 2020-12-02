@@ -18,7 +18,7 @@ known_face_encodings = [gal_face_encoding, henry_face_encoding, joaquin_face_enc
 known_face_names = ['Gal Gadot', 'Henry Cavill', 'Joaquin Phoenix']
 
 # Loading Test Image to Find Faces in
-test_image = face_recognition.load_image_file('./images/groups/group1.jpg')
+test_image = face_recognition.load_image_file('./images/groups/henry_gal.jpg')
 
 # Finding Faces in Test Image
 face_locations = face_recognition.face_locations(test_image)
